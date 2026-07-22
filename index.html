@@ -1,16 +1,158 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bethel Creator</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bethel Creator</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+}
+
+header{
+background:linear-gradient(90deg,#3b82f6,#7c3aed);
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+font-size:30px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:100px 20px;
+}
+
+.hero h2{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+color:#ddd;
+margin-bottom:30px;
+}
+
+button{
+padding:15px 30px;
+font-size:18px;
+background:#ffd700;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+
+section{
+padding:60px 20px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+margin-top:30px;
+}
+
+.card{
+background:#1b1b1b;
+padding:25px;
+width:280px;
+border-radius:15px;
+transition:.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+footer{
+background:#111;
+padding:25px;
+text-align:center;
+margin-top:40px;
+}
+</style>
+
 </head>
-<body style="font-family: Arial, sans-serif; text-align: center; background: #111; color: white; padding: 50px;">
-    <h1>Bienvenue sur Bethel Creator</h1>
-    <p>Le royaume des histoires, des contes et des aventures.</p>
 
-    <h2>Bientôt disponible...</h2>
+<body>
 
-    <p>Créé par Bethel Junior</p>
+<header>
+
+<h1>Bethel Creator</h1>
+
+<nav>
+<a href="#">Accueil</a>
+<a href="#">Histoires</a>
+<a href="#">Galerie</a>
+<a href="#">Vidéos</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<div class="hero">
+
+<h2>Bienvenue sur Bethel Creator</h2>
+
+<p>Des histoires fantastiques, des contes, des illustrations et des vidéos originales.</p>
+
+<button>Lire les histoires</button>
+
+</div>
+
+<section>
+
+<h2>Nos univers</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>📖 Histoires</h3>
+<p>Découvre des aventures inédites publiées épisode par épisode.</p>
+</div>
+
+<div class="card">
+<h3>🎨 Illustrations</h3>
+<p>Affiches, personnages et créations originales.</p>
+</div>
+
+<div class="card">
+<h3>🎬 Vidéos</h3>
+<p>Retrouve nos vidéos et nos contes animés.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Bethel Creator - Tous droits réservés
+
+</footer>
+
 </body>
 </html>
