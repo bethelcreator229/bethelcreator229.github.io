@@ -1,24 +1,144 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Histoires - Bethel Creator</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Histoires - Bethel Creator</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#111;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    background:linear-gradient(90deg,#4f8dfd,#7b2cff);
+    padding:20px;
+}
+
+header h1{
+    margin:0;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:40px 0;
+}
+
+.cards{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.card{
+    width:300px;
+    background:#222;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h2{
+    padding:15px;
+    margin:0;
+}
+
+.card p{
+    padding:0 15px;
+}
+
+.btn{
+    display:inline-block;
+    margin:20px 15px;
+    background:#FFD43B;
+    color:black;
+    padding:12px 25px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+}
+
+</style>
+
 </head>
+
 <body>
 
+<header>
 <h1>📚 Histoires de Bethel Creator</h1>
+</header>
+
+<div class="container">
+
+<div class="cards">
+
+<div class="card">
+
+<img src="https://picsum.photos/400/250?random=1">
 
 <h2>Le Gardien de Cristal</h2>
+
 <p>Une aventure fantastique pleine de magie et de mystères.</p>
 
+<a class="btn" href="#">Lire</a>
+
+</div>
+
+<div class="card">
+
+<img src="https://picsum.photos/400/250?random=2">
+
 <h2>Les Chroniques d'Ashéria</h2>
+
 <p>Une épopée dans un royaume légendaire.</p>
 
+<a class="btn" href="#">Lire</a>
+
+</div>
+
+<div class="card">
+
+<img src="https://picsum.photos/400/250?random=3">
+
 <h2>Histoires chrétiennes</h2>
+
 <p>Des récits inspirants basés sur la foi.</p>
 
-<p><a href="index.html">⬅ Retour à l'accueil</a></p>
+<a class="btn" href="#">Lire</a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<a class="btn" href="index.html">⬅ Retour à l'accueil</a>
+
+</footer>
 
 </body>
+
 </html>
