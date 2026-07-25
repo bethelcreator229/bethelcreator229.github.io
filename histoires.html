@@ -3,80 +3,132 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Histoires - Bethel Creator</title>
+
+<title>Le Gardien de Cristal</title>
+
+<link rel="stylesheet" href="css/css/style.css">
 
 <style>
 
 body{
-    margin:0;
-    background:#111;
-    color:white;
-    font-family:Arial, Helvetica, sans-serif;
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:#111;
+color:white;
 }
 
-header{
-    background:linear-gradient(90deg,#4f8dfd,#7b2cff);
-    padding:20px;
+.hero{
+
+height:500px;
+
+background:url("https://picsum.photos/1600/900?random=7") center/cover;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
 }
 
-header h1{
-    margin:0;
+.overlay{
+
+background:rgba(0,0,0,.6);
+
+padding:40px;
+
+border-radius:20px;
+
+text-align:center;
+
 }
 
-.container{
-    width:90%;
-    margin:auto;
-    padding:40px 0;
+h1{
+
+font-size:55px;
+
+margin-bottom:15px;
+
 }
 
-.cards{
-    display:flex;
-    gap:30px;
-    flex-wrap:wrap;
-    justify-content:center;
+.resume{
+
+max-width:850px;
+
+margin:auto;
+
+font-size:22px;
+
+line-height:1.8;
+
+padding:50px;
+
+text-align:center;
+
 }
 
-.card{
-    width:300px;
-    background:#222;
-    border-radius:15px;
-    overflow:hidden;
-    transition:.3s;
-}
+.info{
 
-.card:hover{
-    transform:scale(1.05);
-}
+display:flex;
 
-.card img{
-    width:100%;
-    height:200px;
-    object-fit:cover;
-}
+justify-content:center;
 
-.card h2{
-    padding:15px;
-    margin:0;
-}
+gap:40px;
 
-.card p{
-    padding:0 15px;
+font-size:22px;
+
+margin-bottom:40px;
+
+flex-wrap:wrap;
+
 }
 
 .btn{
-    display:inline-block;
-    margin:20px 15px;
-    background:#FFD43B;
-    color:black;
-    padding:12px 25px;
-    border-radius:8px;
-    text-decoration:none;
-    font-weight:bold;
+
+display:inline-block;
+
+padding:18px 40px;
+
+background:#ffcc33;
+
+color:black;
+
+font-weight:bold;
+
+text-decoration:none;
+
+border-radius:10px;
+
+font-size:22px;
+
 }
 
-footer{
-    text-align:center;
-    padding:30px;
+.saisons{
+
+max-width:900px;
+
+margin:50px auto;
+
+padding:30px;
+
+}
+
+.saison{
+
+background:#222;
+
+padding:25px;
+
+margin-bottom:20px;
+
+border-radius:15px;
+
+}
+
+.saison h2{
+
+color:#ffcc33;
+
 }
 
 </style>
@@ -85,59 +137,73 @@ footer{
 
 <body>
 
-<header>
-<h1>📚 Histoires de Bethel Creator</h1>
-</header>
+<div class="hero">
 
-<div class="container">
+<div class="overlay">
 
-<div class="cards">
+<h1>Le Gardien de Cristal</h1>
 
-<div class="card">
+<p>Fantasy • Magie • Aventure</p>
 
-<img src="https://picsum.photos/400/250?random=1">
-
-<h2>Le Gardien de Cristal</h2>
-
-<p>Une aventure fantastique pleine de magie et de mystères.</p>
-
-<a class="btn" href="gardien-cristal.html">Lire</a>
-
-</div>
-
-<div class="card">
-
-<img src="https://picsum.photos/400/250?random=2">
-
-<h2>Les Chroniques d'Ashéria</h2>
-
-<p>Une épopée dans un royaume légendaire.</p>
-
-<a class="btn" href="#">Lire</a>
-
-</div>
-
-<div class="card">
-
-<img src="https://picsum.photos/400/250?random=3">
-
-<h2>Histoires chrétiennes</h2>
-
-<p>Des récits inspirants basés sur la foi.</p>
-
-<a class="btn" href="#">Lire</a>
+<a class="btn" href="#">Commencer la lecture</a>
 
 </div>
 
 </div>
 
+<div class="resume">
+
+Un ancien cristal renferme un pouvoir capable de sauver le royaume d'Aurélion... ou de le détruire. Lorsqu'un jeune garçon découvre qu'il est le dernier Gardien, une aventure extraordinaire commence.
+
 </div>
 
-<footer>
+<div class="info">
 
-<a class="btn" href="index.html">⬅ Retour à l'accueil</a>
+<div>📚 4 saisons</div>
 
-</footer>
+<div>🎬 20 épisodes par saison</div>
+
+<div>⭐ Histoire originale</div>
+
+</div>
+
+<div class="saisons">
+
+<div class="saison">
+
+<h2>Saison 1</h2>
+
+<p>La naissance du Gardien.</p>
+
+<a class="btn" href="#">Voir les épisodes</a>
+
+</div>
+
+<div class="saison">
+
+<h2>Saison 2</h2>
+
+<p>Le réveil des ténèbres.</p>
+
+</div>
+
+<div class="saison">
+
+<h2>Saison 3</h2>
+
+<p>La guerre des royaumes.</p>
+
+</div>
+
+<div class="saison">
+
+<h2>Saison 4</h2>
+
+<p>Le dernier combat.</p>
+
+</div>
+
+</div>
 
 </body>
 
